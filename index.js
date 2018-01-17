@@ -3,3 +3,7 @@ var recipes = { ice: "1 large cube", whiskey: "2 parts", vermouth: "1 part", bit
 function updateObjectWithKeyAndValue(object, key, value) {
   return Object.assign({}, object, {[key]: value});
 }
+
+function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
+  
+}
