@@ -14,3 +14,10 @@ function deleteFromObjectByKey(object, key) {
   delete simpleRecipe[key];
   return simpleRecipe;
 }
+
+function destructivelyDeleteFromObjectByKey(object, key) {
+  delete object[key];
+  return object;
+}
+
+
